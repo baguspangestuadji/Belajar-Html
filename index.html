@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Html</title>
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1>Heading 1</h1>
+    <h2>Haading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h4>Heading 5</h4>
+    <h4>Heading 6</h4>
+    <!-- Heading end -->
+
+    <!-- paragraf -->
+    <p>contoh paragraf</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod inventore
+      ipsum beatae sed esse consequatur veritatis a expedita ex laboriosam eos
+      rem nihil alias, nulla dolorum! Quibusdam architecto tenetur distinctio?
+    </p>
+    <!-- paragraf end -->
+
+    <!-- text formating -->
+    <!-- <br> untuk enter pada setiap kalimat -->
+    <p>contoh aja</p>
+    <b>B untuk menrbalkan huruf</b><br />
+    <i>i untuk membuat tulisan menjadi miring</i> <br />
+    <u>u untuk membuat garis bawah</u><br />
+    <p>2 <sup>2</sup></p>
+    <br />
+    <p>2 <sub>2</sub></p>
+    <!-- text formating end -->
+
+    <!-- List / daftar -->
+    <!-- oredered list -->
+    <ol type="A">
+      <li>siswa 1</li>
+      <li>siswa 2</li>
+      <li>siswa 3</li>
+      <li>siswa 4</li>
+    </ol>
+
+    <!-- Unordered list -->
+    <ul>
+      <li>Tank 1</li>
+      <li>Tank 2</li>
+      <li>Tank 3</li>
+      <li>Tank 4</li>
+    </ul>
+    <!-- List / daftar end-->
+
+    <!-- Anchor / Hyperlink-->
+    <a href="https://www.youtube.com">ke yotube </a> <br />
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      Buka Github</a
+    >
+    <!-- Anchor end -->
+
+    <!-- image/ memasukan gambar -->
+    <img width="120" height="120" src="img/1.jpg" alt="lagi ngoding" />
+    <!-- image/ memasukan gambar end -->
+
+    <!-- table -->
+    <!-- th adalah tabel head -->
+    <!-- tr itu tabel data -->
+    <!-- td adalah tabel data -->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Alamat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">1</td>
+          <td>Budi</td>
+          <td>Solo</td>
+        </tr>
+        <tr>
+          <td>Andi</td>
+          <td>Jakarta</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Alamat mahasiswa</td>
+          <td>jauh semua</td>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- table -->
+
+    <!-- form -->
+    <!-- for untuk atribut (apa) -->
+    <form action="">
+      <label for="name">Nama :</label>
+      <input type="text" id="name" />
+
+      <label for="tgl">Tgl lahir:</label>
+      <input type="date" id="tgl" />
+      <button type="button">Simpan</button>
+    </form>
+    <!-- form end -->
+
+    <!-- iframe -->
+    <iframe src="test.html" frameborder="0"></iframe>
+    <!-- iframe end -->
+
+    <!-- div and span -->
+    <!-- digunakan untuk membungkus form -->
+    <!-- div and span -->
+    <form action="">
+      <div>
+        <label for="name">Nama :</label>
+        <input type="text" id="name" />
+      </div>
+
+      <p>
+        sulit untuk dijelaskan <span> <b>masbro</b> </span>
+      </p>
+
+      <div>
+        <label for="tgl">Tgl lahir:</label>
+        <input type="date" id="tgl" />
+      </div>
+      <div><button type="button">Simpan</button></div>
+    </form>
+  </body>
+</html>
